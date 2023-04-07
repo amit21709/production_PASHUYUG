@@ -2,7 +2,7 @@ import userModel from "../models/userModel.js";
 import orderModel from "../models/orderModel.js";
 import saveModel from "../models/saveModel.js";
 
-import { comparePassword, hashPassword } from "./../helper/authHelper.js";
+import { comparePassword, hashPassword } from "./../helper/authhelper.js";
 import JWT from "jsonwebtoken";
 
 export const registerCtrl = async (req, res) => {
